@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Johnson",
+    "role": "Software Developer",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+    "rating": 5,
+    "text": "PadhaiLikhai transformed my career! The web development course was comprehensive and practical. I landed my dream job within 3 months."
+  },
+  {
+    "id": 2,
+    "name": "Sarah Chen",
+    "role": "Data Analyst",
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100",
+    "rating": 5,
+    "text": "The Data Science course exceeded my expectations. The instructors are knowledgeable and the community support is amazing. Highly recommended!"
+  },
+  {
+    "id": 3,
+    "name": "Michael Rodriguez",
+    "role": "Marketing Manager",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100",
+    "rating": 5,
+    "text": "I learned so much from the Digital Marketing course. The practical projects helped me implement strategies at work immediately. Great value!"
+  },
+  {
+    "id": 4,
+    "name": "Emily Watson",
+    "role": "UI/UX Designer",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100",
+    "rating": 5,
+    "text": "The design course is fantastic! The curriculum is well-structured and the feedback from instructors is invaluable. I've improved my portfolio significantly."
+  }
+]
+

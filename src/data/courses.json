@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "category": "Web Development",
+    "level": "Beginner",
+    "duration": "12 weeks",
+    "price": 99,
+    "rating": 4.8,
+    "students": 12500,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400",
+    "description": "Master HTML, CSS, JavaScript, React, Node.js and more. Build real-world projects and land your dream job."
+  },
+  {
+    "id": 2,
+    "title": "Data Science & Machine Learning",
+    "instructor": "Jane Smith",
+    "category": "Data Science",
+    "level": "Intermediate",
+    "duration": "16 weeks",
+    "price": 149,
+    "rating": 4.9,
+    "students": 8900,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400",
+    "description": "Learn Python, pandas, scikit-learn, TensorFlow. Build ML models and analyze data like a pro."
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing Mastery",
+    "instructor": "Mike Johnson",
+    "category": "Marketing",
+    "level": "Beginner",
+    "duration": "8 weeks",
+    "price": 79,
+    "rating": 4.7,
+    "students": 15200,
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400",
+    "description": "SEO, Social Media, Google Ads, Content Marketing. Grow your business with proven strategies."
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Sarah Williams",
+    "category": "Design",
+    "level": "Beginner",
+    "duration": "10 weeks",
+    "price": 89,
+    "rating": 4.6,
+    "students": 11200,
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400",
+    "description": "Learn design principles, Figma, prototyping, and user research. Create beautiful interfaces."
+  },
+  {
+    "id": 5,
+    "title": "Python Programming Complete",
+    "instructor": "David Brown",
+    "category": "Programming",
+    "level": "Beginner",
+    "duration": "14 weeks",
+    "price": 109,
+    "rating": 4.8,
+    "students": 19800,
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400",
+    "description": "From basics to advanced Python. Learn Django, Flask, automation, and data analysis."
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Development",
+    "instructor": "Emily Davis",
+    "category": "Mobile",
+    "level": "Intermediate",
+    "duration": "18 weeks",
+    "price": 129,
+    "rating": 4.7,
+    "students": 7600,
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400",
+    "description": "Build iOS and Android apps with React Native. Publish your apps to app stores."
+  },
+  {
+    "id": 7,
+    "title": "Cloud Computing & AWS",
+    "instructor": "Robert Taylor",
+    "category": "Cloud",
+    "level": "Intermediate",
+    "duration": "12 weeks",
+    "price": 139,
+    "rating": 4.9,
+    "students": 6400,
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400",
+    "description": "Master AWS, Azure, Docker, Kubernetes. Deploy scalable applications to the cloud."
+  },
+  {
+    "id": 8,
+    "title": "Cybersecurity Essentials",
+    "instructor": "Lisa Anderson",
+    "category": "Security",
+    "level": "Intermediate",
+    "duration": "10 weeks",
+    "price": 119,
+    "rating": 4.8,
+    "students": 5400,
+    "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400",
+    "description": "Learn ethical hacking, network security, cryptography. Protect systems from threats."
+  }
+]
+
