@@ -3,6 +3,7 @@
 import { ThemeProvider } from './ThemeProvider'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import { Toaster } from 'react-hot-toast'
 
 export default function Providers({ children }: { children: React.ReactNode }) {
   return (
@@ -11,6 +12,7 @@ export default function Providers({ children }: { children: React.ReactNode }) {
       <main className="min-h-screen">
         {children}
       </main>
+      <Toaster position="top-right" />
       <Footer />
     </ThemeProvider>
   )

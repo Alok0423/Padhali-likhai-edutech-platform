@@ -1,16 +1,21 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { User, BookOpen, Award, TrendingUp, Clock, CheckCircle } from 'lucide-react'
+import { User, BookOpen, Award, TrendingUp, Clock, CheckCircle, Download } from 'lucide-react'
+import { useCartStore } from '@/store/cartStore'
 import coursesData from '@/data/courses.json'
 
 export default function DashboardPage() {
-  const enrolledCourses = coursesData.slice(0, 3)
-  const completedCourses = 5
+  const { items } = useCartStore()
+  
+  // Mock purchased courses (in real app, this would come from a database)
+  const purchasedCourses = coursesData.slice(0, 3)
+  const enrolledCourses = items.length > 0 ? items.length : purchasedCourses.length
+  const completedCourses = 2
   const totalProgress = 68
 
   const stats = [
-    { icon: BookOpen, label: 'Enrolled Courses', value: enrolledCourses.length },
+    { icon: BookOpen, label: 'Enrolled Courses', value: enrolledCourses },
     { icon: CheckCircle, label: 'Completed', value: completedCourses },
     { icon: Clock, label: 'Hours Studied', value: '120' },
     { icon: Award, label: 'Certificates', value: 3 },
@@ -26,8 +31,12 @@ export default function DashboardPage() {
           className="mb-8"
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
-            Dashboard
+            My Dashboard
           </h1>
+          <p className="text-xl text-gray-600 dark:text-gray-400">
+            Track your learning progress and manage your courses
+          </p>
+        </motion.div>
           <p className="text-xl text-gray-600 dark:text-gray-400">
             Welcome back! Here's your learning progress.
           </p>

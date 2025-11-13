@@ -1,23 +1,14 @@
 'use client'
 
-import { useState } from 'react'
-import { motion } from 'framer-motion'
-import { Mail, Phone, MapPin, Send, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
+import ContactForm from '@/components/ContactForm'
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  })
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission
-    console.log('Form submitted:', formData)
-    alert('Thank you for your message! We will get back to you soon.')
-    setFormData({ name: '', email: '', message: '' })
-  }
+  return (
+    <div className="min-h-screen bg-white dark:bg-gray-900 pt-16">
+      <ContactForm />
+    </div>
+  )
+}
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({

@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { Menu, X, Moon, Sun } from 'lucide-react'
 import { useTheme } from './ThemeProvider'
+import CartWidget from './CartWidget'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -70,6 +71,7 @@ export default function Navbar() {
                 )}
               </Link>
             ))}
+            <CartWidget />
             <button
               onClick={toggleTheme}
               className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
